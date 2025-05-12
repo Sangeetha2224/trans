@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUGANTHI TRANSPORT</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+      .hero-section {
+        background-image: url('images/IMG_3425.JPG'); /* Replace with actual path */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+        padding: 100px 20px;
+        text-align: center;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+      }
+
+      .hero-content {
+        background-color: rgba(0, 0, 0, 0.5); /* Optional: better text readability */
+        display: inline-block;
+        padding: 20px 40px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hero-section">
+      <div class="hero-content">
+        <h1>Welcome to Suganthi Transport</h1>
+        <p>Trusted logistics partner since 1994</p>
+      </div>
+    </div>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">SUGANTHI TRANSPORT</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#fleet">Fleet</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+
+    <!-- About Us -->
+    <section id="about">
+      <div class="container">
+        <br>
+        <h2>About Suganthi Transport</h2>
+        <p>
+          We believe in turning bold visions ointo powerful journeys.What began
+          in 1994 as a one man,one truck operation in Coimbatore,has grown into
+          one of the most trusted names in logistics across the Coimbatore. With
+          over 55+ owned commercial vehicles,we proud to be Coimbatore's largest
+          fleet owner,delivering dependable,on time inbound and outbound
+          logistitcs solutions to top multinational companies and regional
+          businesses alike. Driven by passion,powered by commitment,and built on
+          decades of experience-Suganthi Transport is more than just a logistics
+          provider.We're a long term partner in your supply chain success.
+        </p>
+      </div>
+    </section>
+    <div class="container my-5">
+  <div class="ratio ratio-16x9">
+    <video id="myVideo" loop>
+      <source src="video/IMG_3438.MP4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const video = document.getElementById("myVideo");
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            video.play().catch(error => {
+              console.log("Autoplay with sound may be blocked:", error);
+            });
+          }
+        });
+      }, { threshold: 0.5 });
+
+      observer.observe(video);
+    });
+  </script>
+</section>
+
+   <style>
+   #mission-vision {
+  background-color: #e6f2ff; /* Soft light blue */
+  padding: 60px 20px;
+}
+
+    #mission-vision h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+      font-weight: bold;
+    }
+    #mission-vision {
+  background-color: #e8f5e9; /* Soft green */
+  padding: 60px 20px;
+}
+
+    #mission-vision h5 {
+      margin-top: 30px;
+      color: #0056b3; /* Bootstrap blue */
+    }
+
+    #mission-vision p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body> <section id="mission-vision" style="background-color: #f8f9fa; padding: 60px 20px;">
+  <div class="container">
+    <h2 class="text-center mb-5" style="color: #003366;">Our Mission & Vision</h2>
+
+    <!-- Flexbox Row for Vision, Mission, and Values -->
+    <div class="row d-flex justify-content-between align-items-start">
+      
+      <!-- Vision Section -->
+      <div class="col-md-4">
+        <div class="text-center">
+          <h5 class="text-primary mb-3">
+            <i class="fas fa-bullseye me-2"></i> Vision
+          </h5>
+          <p>
+            "To be the trusted link between people, goods, and growth." To grow as a leading transport company by delivering excellence every day.
+          </p>
+        </div>
+      </div>
+
+      <!-- Mission Section -->
+      <div class="col-md-4">
+        <div class="text-center">
+          <h5 class="text-success mb-3">
+            <i class="fas fa-truck me-2"></i> Mission
+          </h5>
+          <p>
+            "To provide safe, reliable, and timely transportation services that meet the needs of our customers and support their growth."
+          </p>
+        </div>
+      </div>
+
+      <!-- Values Section -->
+      <div class="col-md-4">
+        <div class="text-center">
+          <h5 class="text-warning mb-3">
+            <i class="fas fa-handshake me-2"></i> Our Values
+          </h5>
+          <p>
+            We want to create a transport company that feels like a family, where people trust and work well together. We believe in doing business honestly and using modern ideas to guide and support the younger generation.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style> 
+.services-heading {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin: 40px 0 20px;
+  font-weight: bold;
+}
+ 
+</style><!-- Services -->
+    <section id="services" class="services-section">
+      <div class="container">
+       <h2 class="services-heading">Our Services</h2>
+
+        <h5>MILKRUN</h5>
+        <p>
+          ST Logistics provides Milk Run services to major customers across
+          Coimbatore, operating over 55 owned vehicles. We cover more than 5,000
+          km daily, serving 300+ suppliers with reliable delivery and pickup.
+          With 65+ dedicated drivers working around the clock and our trusted
+          workshop for vehicle maintenance, we ensure on-time performance every
+          day.
+        </p>
+        <h5>Full Truck Load (FTL)</h5>
+        <p>
+          ST Logistics offers efficient and cost-effective Full Truck Load (FTL)
+          services because of own fleets for businesses with large shipment
+          needs. With our fleet of 55+ vehicles, we provide direct
+          point-to-point delivery, ensuring faster transit times, minimal
+          handling, and maximum security for your goods. Ideal for bulk cargo or
+          time-sensitive deliveries, our FTL services are trusted by major
+          companies across Coimbatore.
+        </p>
+
+        <div class="container my-5">
+  <h5>Why Choose ST Logistics?</h5>
+  <p>
+    At ST Logistics, we go the extra mile to provide dependable,
+    high-quality transport solutions your business can rely on.
+  </p>
+
+  <div class="row">
+    <div class="col-md-6 mb-4 d-flex">
+      <i class="bi bi-clock-history text-primary fs-3 me-3"></i>
+      <div>
+        <strong>On-Time Delivery:</strong><br>
+        We understand how crucial timing is. That’s why we ensure your shipments arrive exactly when they’re needed.
+      </div>
+    </div>
+    <div class="col-md-6 mb-4 d-flex">
+      <i class="bi bi-shield-check text-success fs-3 me-3"></i>
+      <div>
+        <strong>Safe Transportation:</strong><br>
+        With secure handling and a well-maintained fleet, your cargo is always in safe hands.
+      </div>
+    </div>
+    <div class="col-md-6 mb-4 d-flex">
+      <i class="bi bi-cash-coin text-warning fs-3 me-3"></i>
+      <div>
+        <strong>Cost-Effective Solutions:</strong><br>
+        Thanks to our fleet of owned trucks, we offer competitive pricing without compromising on quality.
+      </div>
+    </div>
+    <div class="col-md-6 mb-4 d-flex">
+      <i class="bi bi-headset text-danger fs-3 me-3"></i>
+      <div>
+        <strong>24/7 Customer Support:</strong><br>
+        Our dedicated team is available around the clock to assist you whenever you need us.
+      </div>
+    </div>
+  
+
+
+ 
+
+
+      </div>
+    </section> <!-- Fleet -->
+    <section id="fleet" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Fleet & Facilities</h2>
+
+    <p class="text-center mb-5">
+      At ST Logistics, we are equipped with strong infrastructure to ensure
+      smooth and reliable transport operations:
+    </p>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="p-4 bg-white rounded shadow h-100 d-flex">
+          <i class="bi bi-truck-front fs-1 text-primary me-3"></i>
+          <div>
+            <strong>Own Fleet:</strong><br>
+            Over 55+ well-maintained commercial vehicles for efficient logistics.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-4 bg-white rounded shadow h-100 d-flex">
+          <i class="bi bi-person-badge fs-1 text-success me-3"></i>
+          <div>
+            <strong>Dedicated Drivers:</strong><br>
+            A team of 65+ experienced drivers committed to timely delivery.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-4 bg-white rounded shadow h-100 d-flex">
+          <i class="bi bi-wrench-adjustable fs-1 text-warning me-3"></i>
+          <div>
+            <strong>In-House Workshop:</strong><br>
+            Our trusted repair and maintenance facility reduces downtime and keeps our fleet running smoothly.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="p-4 bg-white rounded shadow h-100 d-flex">
+          <i class="bi bi-geo-alt fs-1 text-danger me-3"></i>
+          <div>
+            <strong>GPS Tracking:</strong><br>
+            All vehicles are equipped with real-time tracking for safety and transparency.
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="p-4 bg-white rounded shadow h-100 d-flex">
+          <i class="bi bi-people fs-1 text-info me-3"></i>
+          <div>
+            <strong>Operations Team:</strong><br>
+            A skilled team manages route planning, coordination, and customer support to ensure hassle-free service.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <section id="vehicle-types" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Our Own Brand New Vehicle Types</h2>
+
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="card shadow-sm p-4 border-0">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-truck fs-2 text-primary me-3"></i>
+            <h5 class="card-title mb-0">1-Ton TATA Ace</h5>
+          </div>
+          <p class="card-text">
+            Available in Open / Side Open / Closed variants.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card shadow-sm p-4 border-0">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-truck fs-2 text-success me-3"></i>
+            <h5 class="card-title mb-0">2-Ton DOST</h5>
+          </div>
+          <p class="card-text">
+            Available in Open / Side Open / Closed variants.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card shadow-sm p-4 border-0">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-truck fs-2 text-warning me-3"></i>
+            <h5 class="card-title mb-0">2.5-Ton TATA</h5>
+          </div>
+          <p class="card-text">
+            Available in Open / Side Open / Closed variants.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card shadow-sm p-4 border-0">
+          <div class="d-flex align-items-center mb-3">
+            <i class="bi bi-truck fs-2 text-danger me-3"></i>
+            <h5 class="card-title mb-0">5-Ton EICHER</h5>
+          </div>
+          <p class="card-text">
+            Available in Open / Side Open / Closed variants.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+</style>
+
+    <div class="container my-4 text-center">
+  <img src="images/IMG-20250512-WA0018.jpg" alt="Our Vehicle Fleet" class="img-fluid rounded shadow" />
+</div>
+
+ <section id="contact" style="background-color: #003366; color: white; padding: 60px 20px;">
+  <div class="container">
+    <h2 class="text-center mb-5">Contact</h2>
+    <p class="text-center mb-5">
+      Office location: REGISTERED OFFICE<br>
+      5/47 A PAPPE GOUNDER STREET,<br>
+      OTHAKKALMANDAPAM, COIMBATORE
+    </p>
+
+    <!-- Branch Offices in Grid -->
+    <div class="row">
+      <!-- Echanari Branch (Left) -->
+      <div class="col-md-4 text-center">
+        <div class="card text-center bg-light text-dark p-4">
+          <h5 class="card-title">
+            <i class="fas fa-map-marker-alt text-primary me-2"></i> Branch Office: Echanari
+          </h5>
+          <p class="card-text">
+            <i class="fas fa-location-arrow me-2"></i> Location: Opp to GE Oil and Gas
+          </p>
+        </div>
+      </div>
+
+      <!-- Sulur Branch (Center) -->
+      <div class="col-md-4 text-center">
+        <div class="card text-center bg-light text-dark p-4">
+          <h5 class="card-title">
+            <i class="fas fa-map-marker-alt text-primary me-2"></i> Branch Office: Sulur
+          </h5>
+          <p class="card-text">
+            <i class="fas fa-location-arrow me-2"></i> Location: Opp to Bull Machine
+          </p>
+        </div>
+      </div>
+
+      <!-- Annur Branch (Right) -->
+      <div class="col-md-4 text-center">
+        <div class="card text-center bg-light text-dark p-4">
+          <h5 class="card-title">
+            <i class="fas fa-map-marker-alt text-primary me-2"></i> Branch Office: Annur
+          </h5>
+          <p class="card-text">
+            <i class="fas fa-location-arrow me-2"></i> Location: Opp to Euro Cast Engineering
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
